@@ -8,10 +8,15 @@ h3,
 h4,
 h5,
 h6,
-a {
+a,
+.testimonial {
     font-family: "Cormorant", serif;
 }
 .handwritting {
     font-family: "Herr Von Muellerhoff", cursive;
-   
+}
+
+.splide__arrow--prev,
+.splide__arrow--next {
+    background: transparent !important ; 
 }

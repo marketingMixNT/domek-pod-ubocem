@@ -11,6 +11,8 @@
        @include('pages.home.sections.about')
        @include('pages.home.sections.cottage')
        @include('pages.home.sections.attractions')
+       @include('pages.home.sections.testimonials')
+       @include('pages.home.sections.cta')
 
 
     </x-layouts.main>

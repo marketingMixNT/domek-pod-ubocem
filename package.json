@@ -13,5 +13,9 @@
         "sass": "^1.74.1",
         "tailwindcss": "^3.4.3",
         "vite": "^5.0"
+    },
+    "dependencies": {
+        "@splidejs/splide": "^4.1.4",
+        "swiper": "^11.1.1"
     }
 }

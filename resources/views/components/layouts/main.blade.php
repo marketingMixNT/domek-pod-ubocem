@@ -35,11 +35,12 @@
     <div> --}}
 
     {{ $slot }}
-    {{-- </div>
-
     <!--FOOTER-->
 
     @include('shared.footer')
+    {{-- </div>
+
+    
     @include('shared.mobile-buttons') --}}
 
     <!--SCRIPTS-->
