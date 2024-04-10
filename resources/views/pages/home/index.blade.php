@@ -10,6 +10,7 @@
 
        @include('pages.home.sections.about')
        @include('pages.home.sections.cottage')
+       @include('pages.home.sections.attractions')
 
 
     </x-layouts.main>
