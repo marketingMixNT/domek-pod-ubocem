@@ -1,6 +1,14 @@
 <x-layouts.main>
 
-<p class="text-7xl text-red-400">test</p>
+    {{-- @section('title', __('home.title'))
+    @section('description', __('home.description')) --}}
+    @section('title', 'Domek Pod Ubocem w Zakopanem - Blisko Natury i Centrum')
+    @section('description',
+        'Odkryj Regionalny Domek Pod Ubocem: komfortowy wypoczynek w Zakopanem, w otoczeniu łąk i
+        lasów, blisko Krupówek i atrakcji turystycznych. Idealny dla rodzin i grup.')
 
 
-</x-layouts.main>
+       @include('pages.home.sections.about')
+
+
+    </x-layouts.main>
