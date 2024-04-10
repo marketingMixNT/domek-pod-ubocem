@@ -9,6 +9,7 @@
 
 
        @include('pages.home.sections.about')
+       @include('pages.home.sections.cottage')
 
 
     </x-layouts.main>
