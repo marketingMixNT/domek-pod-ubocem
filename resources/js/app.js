@@ -1,16 +1,5 @@
 import "./bootstrap";
 
-// import '@splidejs/splide/css';
-
-// import Splide from '@splidejs/splide';
-
-// const splide = new Splide( '#testimonials',{
-//     autoplay:true,
-//     pagination:false,
-//     arrows:false,
-//     type:'loop',
-// } ).mount();
-
 const hamburgerBtn = document.querySelector('.hamburger')
 
 const hamburgerHandler = ()=>{
@@ -23,3 +12,19 @@ const footerSpan = document.querySelector('#year')
 const currentYear = new Date().getFullYear()
 
 footerSpan.innerHTML=currentYear
+
+
+
+
+import Swiper from 'swiper';
+import { Autoplay } from 'swiper/modules';
+import 'swiper/css';
+
+const swiper = new Swiper('.swiper', {
+    loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      modules: [Autoplay],
+  });
