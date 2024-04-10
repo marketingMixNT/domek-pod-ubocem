@@ -16,3 +16,13 @@ a,
     font-family: "Herr Von Muellerhoff", cursive;
 }
 
+.menu-open {
+    transition: ease, transform 1s ;
+    transform: translateX(0%);
+   
+}
+
+.menu-close {
+    transition: ease, transform 1s ;
+    transform: translateX(100%);
+}

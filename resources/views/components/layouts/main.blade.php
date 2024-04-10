@@ -21,30 +21,15 @@
 
 </head>
 
-{{-- <body class="overflow-x-hidden"> --}}
+<body class="overflow-x-hidden">
 
-<body>
 
-    {{-- <!--NAVIGATION-->
-    @include('shared.nav.top-bar')
-    @include('shared.nav.nav-bar')
-    @include('shared.nav.mobile-menu')
-    <!--PRELOADER-->
-    @include('shared.preloader')
 
-    <div> --}}
 
     {{ $slot }}
     <!--FOOTER-->
-
     @include('shared.footer')
-    {{-- </div>
 
-    
-    @include('shared.mobile-buttons') --}}
-
-    <!--SCRIPTS-->
-    {{-- <script src="https://wis.upperbooking.com/owcedwie/be-panel?locale=pl" async></script> --}}
 
 
 

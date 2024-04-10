@@ -1,7 +1,7 @@
 <section
     class="bg-[url('/public/assets/images/morskie_oko.jpeg')]  bg-cover bg-center bg-no-repeat bg-gray-500 bg-blend-multiply">
 
-    <div class=" max-w-screen-lg  py-16 px-8 xs:px-12 lg:mx-auto">
+    <div class=" max-w-screen-lg  py-12 px-8 xs:px-12 lg:mx-auto">
 
         <div class="text-left mb-6 sm:mb-12">
             <span class="handwritting text-7xl sm:text-9xl text-fontGray">Zaplanuj
@@ -14,4 +14,5 @@
     </div>
 
 
+    
 </section>

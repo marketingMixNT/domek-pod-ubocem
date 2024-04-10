@@ -8,12 +8,15 @@
         lasów, blisko Krupówek i atrakcji turystycznych. Idealny dla rodzin i grup.')
 
 
-       @include('pages.home.sections.hero')
-       @include('pages.home.sections.about')
-       @include('pages.home.sections.cottage')
-       @include('pages.home.sections.attractions')
-       @include('pages.home.sections.testimonials')
-       @include('pages.home.sections.cta')
+        @include('pages.home.sections.hero')
+        <main>
+
+            @include('pages.home.sections.about')
+            @include('pages.home.sections.cottage')
+            @include('pages.home.sections.attractions')
+            @include('pages.home.sections.testimonials')
+            @include('pages.home.sections.cta')
+        </main>
 
 
     </x-layouts.main>
