@@ -41,7 +41,7 @@
                 </h2>
                 <div class="flex justify-center sm:justify-start items-center gap-3">
                     <a href="https://www.facebook.com/villagorskieklimaty/?locale=pl_PL" target="_blank"><img
-                            src="{{ asset('/assets/icons/facebook.svg') }}" alt=""
+                            src="{{ asset('/assets/icons/facebook.svg') }}" alt="facebook"
                             class="w-6 hover:scale-110 duration-300" /></a>
                    
                 </div>

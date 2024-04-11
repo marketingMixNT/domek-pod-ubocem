@@ -1,6 +1,6 @@
-
-@use'./global.scss';
-@use'./hamburger.scss';
+@use "./global.scss";
+@use "./animations";
+@use "./hamburger.scss";
 
 @tailwind base;
 @tailwind components;

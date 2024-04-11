@@ -3,7 +3,7 @@
 
         <x-base.section_heading handwritting="Relaks" heading="Góralski Komfort w Sercu Zakopanego" />
 
-        <div class="grid lg:grid-cols-2  bg-bgWhite mt-16 shadow-lg">
+        <div class="grid lg:grid-cols-2  bg-bgWhite mt-16 shadow-lg md:opacity-0 image-animation">
             <div
                 class="bg-[url('/public/assets/images/domek_pod_ubocom-3.jpeg')] bg-cover bg-center bg-no-repeat h-[600px]">
             </div>

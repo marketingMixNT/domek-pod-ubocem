@@ -16,7 +16,7 @@
          <x-base.link href="{{route('cottage')}}">Zobacz Nasz Domek</x-base.link>
         </div>
 
-        <div class="grid lg:grid-cols-3 gap-12 mt-16">
+        <div class="grid lg:grid-cols-3 gap-12 mt-16 md:opacity-0 image-animation">
             <x-home.about_img src="{{ asset('assets/images/domek_pod_ubocom-1.jpeg') }}"/>
             <x-home.about_img src="{{ asset('assets/images/domek_pod_ubocom-3.jpeg') }}"/>
             <x-home.about_img src="{{ asset('assets/images/domek_pod_ubocom-2.jpeg') }}"/>

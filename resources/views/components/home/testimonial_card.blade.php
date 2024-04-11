@@ -5,8 +5,8 @@
     
     
     
-<h4 class="uppercase text-xl">{{$name}}</h4>
-<h5 class="text-lg lowercase text-fontGold">{{$source}}</h5>
+<span class="uppercase text-xl testimonial">{{$name}}</span>
+<span class="text-lg lowercase text-fontGold testimonial">{{$source}}</span>
     
 </div>
 
