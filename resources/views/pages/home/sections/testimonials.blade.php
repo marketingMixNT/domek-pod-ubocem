@@ -4,7 +4,7 @@
         <x-base.section_heading handwritting="Opinie" heading="Co Mówią Nasi Goście" />
 
 <!-- Slider main container -->
-<div class="swiper">
+<div class="swiper testimonials">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper mt-24">
       <!-- Slides -->

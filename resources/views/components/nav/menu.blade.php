@@ -5,11 +5,11 @@
 
     <ul class="flex flex-col justify-center items-center gap-12">
         <li>
-            <a href="#" class="text-4xl sm:text-5xl text-fontGold hover:text-fontGray duration-300 font-light uppercase">Zobacz
+            <a href="{{route('cottage')}}" class="text-4xl sm:text-5xl text-fontGold hover:text-fontGray duration-300 font-light uppercase">Zobacz
                 Domek</a>
         </li>
         <li>
-            <a href="#" class=" text-4xl sm:text-5xl text-fontGold hover:text-fontGray duration-300 font-light uppercase">
+            <a href="{{route('contact')}}" class=" text-4xl sm:text-5xl text-fontGold hover:text-fontGray duration-300 font-light uppercase">
                 Kontakt</a>
         </li>
 

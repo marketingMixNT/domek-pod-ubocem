@@ -1,4 +1,10 @@
 import "./bootstrap";
+import './testimonialsSwiper'
+import './gallerySwiper'
+
+import GLightbox from 'glightbox';
+import 'glightbox/dist/css/glightbox.min.css';
+const lightbox = GLightbox({  loop:true });
 
 const hamburgerBtn = document.querySelector('.hamburger')
 const menu = document.querySelector('#menu')
@@ -19,15 +25,3 @@ footerSpan.innerHTML=currentYear
 
 
 
-import Swiper from 'swiper';
-import { Autoplay } from 'swiper/modules';
-import 'swiper/css';
-
-const swiper = new Swiper('.swiper', {
-    loop: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      modules: [Autoplay],
-  });

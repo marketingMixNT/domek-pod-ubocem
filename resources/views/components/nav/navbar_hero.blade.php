@@ -3,7 +3,7 @@
 
 
     <div class="flex flex-col justify-center items-center text-center absolute left-0 sm:left-1/2 sm:-translate-x-1/2">
-        <h2 class="text-2xl uppercase text-fontLight font-JazminExtraLight">Domek Pod Ubocem</h2>
+        <a href={{route('home')}} class="text-2xl uppercase text-fontLight font-JazminExtraLight">Domek Pod Ubocem</a>
     </div>
 
     <div class="flex gap-4 2xl:gap-6 items-center">
