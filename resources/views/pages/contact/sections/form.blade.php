@@ -14,7 +14,7 @@
 <div id="formContact" class="flex justify-center items-center h-full ">
     <div class=" flex flex-col gap-4 text-center my-6">
 
-        <span class="text-5xl font-bold mb-2 font-handwriting">Dziękujemy za wiadomość!</span>
+        <h3 class="text-5xl font-bold mb-2 font-handwriting">Dziękujemy za wiadomość!</h3>
         <span class="text-xl font-bold">Odpowiemy najszybciej jak to możliwe!</span>
     </div>
 </div>
