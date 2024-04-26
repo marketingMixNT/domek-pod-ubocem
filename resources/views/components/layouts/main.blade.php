@@ -39,6 +39,7 @@
 
 
 
+    @include('shared.mobile_buttons')
     {{ $slot }}
     <!--FOOTER-->
     @include('shared.footer')

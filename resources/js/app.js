@@ -1,5 +1,6 @@
 import "./bootstrap";
 import "./observer";
+import "./mobileButtons";
 import "./testimonialsSwiper";
 import "./gallerySwiper";
 
