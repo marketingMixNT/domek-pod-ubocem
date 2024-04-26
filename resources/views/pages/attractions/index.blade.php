@@ -23,9 +23,9 @@
                         <p class=" text-fontGray">{{__('attractions.krupowki.paragraph_first')}}</p>
                     </div>
 
-                    <x-cottage.feature_image_box img="{{ asset('assets/images/attractions/krupowki-3.jpeg') }}" />
-                    <x-cottage.feature_image_box img="{{ asset('assets/images/attractions/krupowki-1.jpeg') }}" />
-                    <x-cottage.feature_image_box img="{{ asset('assets/images/attractions/krupowki-2.jpeg') }}" />
+                    <x-attraction-img img="{{ asset('assets/images/attractions/krupowki-3.jpeg') }}" alt='Krupówki w Zakopanym - atrakcja nieopodal Domek pod Ubocom' />
+                    <x-attraction-img img="{{ asset('assets/images/attractions/krupowki-1.jpeg') }}" alt='Krupówki w Zakopanym - atrakcja nieopodal Domek pod Ubocom' />
+                    <x-attraction-img img="{{ asset('assets/images/attractions/krupowki-2.jpeg') }}" alt='Krupówki w Zakopanym - atrakcja nieopodal Domek pod Ubocom' />
 
 
 
@@ -40,9 +40,9 @@
                         <p class=" text-fontGray">{{__('attractions.gubalowka.paragraph_second')}}</p>
                     </div>
 
-                    <x-cottage.feature_image_box img="{{ asset('assets/images/attractions/gubalowka-3.jpeg') }}" />
-                    <x-cottage.feature_image_box img="{{ asset('assets/images/attractions/gubalowka-2.jpeg') }}" />
-                    <x-cottage.feature_image_box img="{{ asset('assets/images/attractions/gubalowka-1.jpeg') }}" />
+                    <x-attraction-img img="{{ asset('assets/images/attractions/gubalowka-3.jpeg') }}" alt='Gubałówka - atrakcja nieopodal Domek pod Ubocom' />
+                    <x-attraction-img img="{{ asset('assets/images/attractions/gubalowka-2.jpeg') }}" alt='Gubałówka - atrakcja nieopodal Domek pod Ubocom' />
+                    <x-attraction-img img="{{ asset('assets/images/attractions/gubalowka-1.jpeg') }}" alt='Gubałówka - atrakcja nieopodal Domek pod Ubocom' />
 
 
 
@@ -57,9 +57,9 @@
                         <p class=" text-fontGray">{{__('attractions.morskie.paragraph_second')}}</p>
                     </div>
 
-                    <x-cottage.feature_image_box img="{{ asset('assets/images/attractions/morskie-2.jpeg') }}" />
-                    <x-cottage.feature_image_box img="{{ asset('assets/images/attractions/morskie-1.jpeg') }}" />
-                    <x-cottage.feature_image_box img="{{ asset('assets/images/attractions/morskie-3.jpeg') }}" />
+                    <x-attraction-img img="{{ asset('assets/images/attractions/morskie-2.jpeg') }}" alt='Morskie Oko - atrakcja nieopodal Domek pod Ubocom' />
+                    <x-attraction-img img="{{ asset('assets/images/attractions/morskie-1.jpeg') }}" alt='Morskie Oko - atrakcja nieopodal Domek pod Ubocom' />
+                    <x-attraction-img img="{{ asset('assets/images/attractions/morskie-3.jpeg') }}" alt='Morskie Oko - atrakcja nieopodal Domek pod Ubocom' />
 
 
 
@@ -75,9 +75,9 @@
                         <p class=" text-fontGray">{{__('attractions.kasprowy.paragraph_second')}}</p>
                     </div>
 
-                    <x-cottage.feature_image_box img="{{ asset('assets/images/attractions/kasprowy-1.jpeg') }}" />
-                    <x-cottage.feature_image_box img="{{ asset('assets/images/attractions/kasprowy-2.jpeg') }}" />
-                    <x-cottage.feature_image_box img="{{ asset('assets/images/attractions/kasprowy-3.jpeg') }}" />
+                    <x-attraction-img  img="{{ asset('assets/images/attractions/kasprowy-1.jpeg') }}" alt="Kasprowy Wierch - atrakcja nieopodal Domek pod Ubocom" />
+                    <x-attraction-img  img="{{ asset('assets/images/attractions/kasprowy-2.jpeg') }}" alt="Kasprowy Wierch - atrakcja nieopodal Domek pod Ubocom" />
+                    <x-attraction-img  img="{{ asset('assets/images/attractions/kasprowy-3.jpeg') }}" alt="Kasprowy Wierch - atrakcja nieopodal Domek pod Ubocom" />
 
 
 

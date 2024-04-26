@@ -1,5 +1,10 @@
+html{
+    scroll-padding-top:100px ;
+}
+
 body {
     font-family: "Dosis", sans-serif;
+  
 }
 
 h1,
@@ -26,3 +31,5 @@ a,
     transition: ease, transform 1s ;
     transform: translateX(100%);
 }
+
+
