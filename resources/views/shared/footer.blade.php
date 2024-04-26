@@ -63,9 +63,9 @@
 
         <!--BOTTOM-->
         <div class="max-w-screen-lg mx-4 sm:mx-24 xl:mx-auto text-lg  flex justify-between items-center">
-            <a href="{{route('home')}}" class="flex gap-2 justify-start items-center hover:text-fontGold duration-300">
+            <a href="{{route('home')}}" class="flex flex-col xs:flex-row gap-2 justify-start items-start xs:items-center hover:text-fontGold duration-300">
                 <span>© <span id="year"></span></span>
-                <span>Domek pod Ubocom</span>
+                <span >Domek pod Ubocom</span>
             </a>
 
             <div>

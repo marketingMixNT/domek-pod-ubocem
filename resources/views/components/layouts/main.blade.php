@@ -2,7 +2,8 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/4770a11d5fee13c368201a62/script.js"></script>
+    {{-- <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/4770a11d5fee13c368201a62/script.js"></script> --}}
+    <!-- Start cookieyes banner --> <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/f1899388d2993f82f15a0e13/script.js"></script> <!-- End cookieyes banner -->
 
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -24,8 +25,11 @@
     <!--Favicons-->
     @include('partials.favicon')
     <!--Facebook Meta-->
+    @include('partials.facebook_meta')
     <!--Fonts-->
     @include('partials.fonts')
+    <!--Fonts-->
+    @include('partials.schema')
     <!-- Scripts -->
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 

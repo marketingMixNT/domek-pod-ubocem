@@ -1,5 +1,5 @@
 <div
-    class="flex flex-col justify-between items-center  px-4 sm:px-8 py-20 h-[70vh] w-full bg-[url('/public/assets/images/hero--mobile.jpeg')] md:bg-[url('/public/assets/images/hero--desktop.jpeg')] bg-cover bg-center bg-no-repeat bg-fixed bg-gray-400 bg-blend-multiply relative">
+    class="flex flex-col justify-between items-center  px-4 sm:px-8 py-10  sm:py-20 h-screen sm:h-[70vh] w-full bg-[url('/public/assets/images/hero--mobile.jpeg')] md:bg-[url('/public/assets/images/hero--desktop.jpeg')] bg-cover bg-center bg-no-repeat bg-fixed bg-gray-400 bg-blend-multiply relative">
 
     <x-nav.navbar_hero />
     <x-nav.menu />

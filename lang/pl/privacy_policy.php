@@ -8,4 +8,14 @@ return [
     'header' => [
         'title' => 'Polityka Prywatności',
         'book' => 'Zarezerwuj'
-    ],];
+    ],
+
+    
+
+    
+
+   
+
+   
+
+];

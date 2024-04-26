@@ -2,8 +2,8 @@
 
 
 
-    <div class="flex flex-col justify-center items-center text-center absolute left-0 sm:left-1/2 sm:-translate-x-1/2">
-        <a href={{route('home')}} class="text-2xl uppercase text-fontLight font-JazminExtraLight"><img src="{{asset('assets/logo--white.png')}}" alt="logo Domek pod Ubocom" class="w-80"></a>
+    <div class="flex flex-col justify-center items-center text-center absolute left-0 2xl:left-1/2 2xl:-translate-x-1/2">
+        <a href={{route('home')}} class="text-2xl uppercase text-fontLight font-JazminExtraLight"><img src="{{asset('assets/logo--white.png')}}" alt="logo Domek pod Ubocom" class="w-32 sm:w-64 2xlw-80"></a>
     </div>
 
     <div class="flex gap-4 2xl:gap-6 items-center">
