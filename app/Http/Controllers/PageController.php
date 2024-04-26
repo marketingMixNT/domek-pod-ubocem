@@ -13,7 +13,7 @@ class PageController extends Controller
     }
     public function cottage()
     {
-        return view('pages.cottage.index');
+        return view('pages.chalet.index');
     }
     public function contact()
     {
