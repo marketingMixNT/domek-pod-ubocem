@@ -4,7 +4,7 @@
 
         <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-12 xl:gap-6 pb-24">
             <x-cottage.feature_box img="{{ asset('assets/icons/nature.svg') }}" title="Bliskość Natury">
-                Otoczony malowniczymi lasami i łąkami, Domek Pod Ubocem oferuje bezpośredni
+                Otoczony malowniczymi lasami i łąkami, Domek Pod Ubocom oferuje bezpośredni
                 kontakt z naturą.</x-cottage.feature_box>
 
             <x-cottage.feature_box img="{{ asset('assets/icons/coffee.svg') }}" title="Świetne Wyposażenie">

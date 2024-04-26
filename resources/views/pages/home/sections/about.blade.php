@@ -3,17 +3,10 @@
 
         
         <div class="max-w-screen-md flex flex-col gap-8  text-center ">
-            <x-base.section_heading handwritting="Urok" heading="Zanurz się w Góralskiej Tradycji i Komforcie " />
-            <p class="text-fontGray text-xl leading-relaxed">Odkryj urokliwy zakątek Zakopanego, gdzie nowoczesność
-                splata się z tradycją. Domek Pod Ubocem, z jego autentycznym regionalnym charakterem, zaprasza do przeżycia niezapomnianych chwil w sercu Tatr.
-                Otoczony malowniczymi łąkami i lasami, stanowi idealne miejsce na relaks i wypoczynek z dala od
-                miejskiego zgiełku, zachowując jednocześnie łatwy dostęp do centrum Zakopanego i największych
-                atrakcji turystycznych. Przestronne i wygodne wnętrza, w pełni wyposażony aneks kuchenny oraz
-                serdeczność gospodarzy sprawią, że poczujesz się jak w domu. Czy to romantyczny wypad we dwoje, czy
-                rodzinna przygoda – Domek Pod Ubocem zapewnia idealne warunki dla każdego, kto pragnie doświadczyć
-                prawdziwego ducha gór.</p>
+            <x-base.section_heading handwritting="{{__('home.about.subtitle')}}" heading="{{__('home.about.title')}}" />
+            <p class="text-fontGray text-xl leading-relaxed">{{__('home.about.paragraph')}}</p>
 
-         <x-base.link href="{{route('cottage')}}">Zobacz Nasz Domek</x-base.link>
+         <x-base.link href="{{route('chalet')}}">{{__('home.about.check_our_chalet')}}</x-base.link>
         </div>
 
         <div class="grid lg:grid-cols-3 gap-12 mt-16 md:opacity-0 image-animation">

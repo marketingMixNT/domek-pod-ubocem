@@ -2,9 +2,9 @@
 
     {{-- @section('title', __('home.title'))
     @section('description', __('home.description')) --}}
-    @section('title', 'Skontaktuj się z nami - Domek Pod Ubocem w Zakopanem')
+    @section('title', 'Skontaktuj się z nami - Domek Pod Ubocom w Zakopanem')
     @section('description',
-        'Masz pytania dotyczące Domku Pod Ubocem? Skontaktuj się z nami, aby dowiedzieć się więcej o
+        'Masz pytania dotyczące Domku Pod Ubocom? Skontaktuj się z nami, aby dowiedzieć się więcej o
         ofercie i dostępności. Zapewniamy kompleksową obsługę i szybką odpowiedź na wszystkie zapytania.')
 
 

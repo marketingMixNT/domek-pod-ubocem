@@ -10,7 +10,7 @@
         <div class="text-center ">
             <span class="handwritting text-7xl lg:text-8xl text-fontGold">Regionalne Piękno</span>
 
-            <h1 class=" sm:-mt-[20px]  text-5xl lg:text-8xl text-fontLight uppercase leading-tight">Odkryj Domek Pod Ubocem</h1>
+            <h1 class=" sm:-mt-[20px]  text-5xl lg:text-8xl text-fontLight uppercase leading-tight">Odkryj Domek Pod Ubocom</h1>
         </div>
 
 
