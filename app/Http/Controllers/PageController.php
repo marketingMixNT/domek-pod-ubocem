@@ -11,13 +11,21 @@ class PageController extends Controller
     {
         return view('pages.home.index');
     }
-    public function cottage()
+    public function chalet()
     {
         return view('pages.chalet.index');
     }
     public function contact()
     {
         return view('pages.contact.index');
+    }
+    public function attractions()
+    {
+        return view('pages.attractions.index');
+    }
+    public function privacy_policy()
+    {
+        return view('pages.privacy_policy.index');
     }
    
 }

@@ -8,9 +8,9 @@
 
 
         <div class="text-center ">
-            <span class="handwritting text-7xl lg:text-8xl text-fontGold">Kontakt</span>
+            <span class="handwritting text-7xl lg:text-8xl text-fontGold">{{__('contact.header.subtitle')}}</span>
 
-            <h1 class=" sm:-mt-[20px]  text-5xl lg:text-8xl text-fontLight uppercase leading-tight">Dowiedz Się Więcej <br>o Naszej Ofercie</h1>
+            <h1 class=" sm:-mt-[20px]  text-5xl lg:text-8xl text-fontLight uppercase leading-tight">{{__('contact.header.title')}}</h1>
         </div>
 
 
@@ -18,5 +18,5 @@
 
 
     </div>
-    <a href="" class="lg:invisible border px-12 py-3 text-fontLight duration-300">Zarezerwuj</a>
+    <a href="https://www.booking.com/hotel/pl/domek-pod-ubocom-zakopane.pl.html?aid=2276640&label=msn-2KBUWT0uox9ahYMZaFKgeA-80676819451809%3Atikwd-80677010220803%3Aloc-136799%3Aneo%3Amte%3Alp137424%3Adec%3Aqsdomek%20pod%20ubocom&sid=31823d566dc879e2328f6fa25b9216c9&dest_id=-538221;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1714115891;srpvid=325533561e6f0143;type=total;ucfs=1&#hotelTmpl" target="_blank" class="lg:invisible border px-12 py-3 text-fontLight duration-300">{{__('contact.header.book')}}</a>
 </div>

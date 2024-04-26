@@ -8,7 +8,7 @@ return [
 
 
     'header' => [
-        'subtitle' => 'Regionalne Piękno',
+        'subtitle' => 'Regionalne Piekno',
         'title' => 'Odkryj Domek Pod Ubocom',
         'book' => 'Book'
     ],

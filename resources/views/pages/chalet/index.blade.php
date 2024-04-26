@@ -1,7 +1,7 @@
 <x-layouts.main>
 
-    @section('title', __('home.title'))
-    @section('description', __('home.description'))
+    @section('title', __('chalet.title'))
+    @section('description', __('chalet.description'))
     
 
 

@@ -30,8 +30,7 @@ class FormController extends Controller
             
             function ($message) {
                 $message->from(env('MAIL_USERNAME'));
-                $message->to(env('MAIL_USERNAME'))->cc('marek.gacek@marketingmix.pl')
-                    // $message->to(env('MAIL_USERNAME'))->cc(env('SECONDARY_EMAIL'))
+                $message->to(env('MAIL_TO'))
                     ->subject('Nowa wiadomość ze strony ');
             }
         );
